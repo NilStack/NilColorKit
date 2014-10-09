@@ -10,7 +10,7 @@ Copy NilColorKit.swift to your project and use as the predefined colors in UICol
 
     cell.backgroundColor = UIColor.materialRed()
 
-The API lise is here.
+The API list and color palette are here.
 
               UIColor.materialRed()        
               UIColor.materialRed50()
