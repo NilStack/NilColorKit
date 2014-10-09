@@ -9,9 +9,75 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
+    
+    let colors: [String:UIColor] = [
+        "Material Red" : UIColor.materialRed(),
+        
+        "Material Pink" : UIColor.materialPink(),
+        
+        "Material Purple" : UIColor.materialPurple(),
+        
+        "Material Deep Purple" : UIColor.materialDeepPurple(),
+        
+        "Material Indigo" : UIColor.materialIndigo(),
+        
+        "Material Blue" : UIColor.materialBlue(),
+        
+        "Material Light Blue" : UIColor.materialLightBlue(),
+        
+        "Material Cyan" : UIColor.materialCyan(),
+        
+        "Material Teal" : UIColor.materialTeal(),
+          
+        "Material Green" : UIColor.materialGreen(),
+    
+        "Material Light Green": UIColor.materialLightGreen(),
+          
+        "Material Lime" : UIColor.materialLime(),
+       
+        "Material Yellow" : UIColor.materialCyan(),
+        
+        "Material Amber" : UIColor.materialAmber(),
+        
+        "Material Orange" : UIColor.materialOrange(),
+    
+        "Material Deep Orange" : UIColor.materialDeepOrange(),
+         
+        "Material Brown" : UIColor.materialBrown(),
 
-    var objects = NSMutableArray()
-
+        "Material Grey" : UIColor.materialGrey(),
+        
+        "Material Blue Grey" : UIColor.materialBlueGrey(),
+        
+        "Turquoise" : UIColor.flatTurquoiseColor(),
+        
+        "GreenSea" : UIColor.flatGreenSeaColor(),
+        
+        "Emerland" : UIColor.flatEmerlandColor(),
+        
+        "Nephritis" : UIColor.flatNephritisColor(),
+        
+        "PeterRiver" : UIColor.flatPeterRiverColor(),
+        
+        "BelizeHole" : UIColor.flatBelizeHoleColor(),
+        
+        "Amethyst" : UIColor.flatAmethystColor(),
+        
+        "Wisteria" : UIColor.flatWisteriaColor(),
+        
+        "WetAsphalt" : UIColor.flatWetAsphaltColor(),
+        
+        "MidnightBlue" : UIColor.flatMidnightBlueColor(),
+        
+        "Sunflower" : UIColor.flatSunflowerColor(),
+        
+        "Tangerine" : UIColor.flatTangerineColor(),
+        
+        "Carrot" : UIColor.flatCarrotColor(),
+        
+        "Pumpkin" : UIColor.flatPumpkinColor()
+        
+    ]
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,67 +85,41 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        self.navigationItem.leftBarButtonItem = self.editButtonItem()
-
-        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
-        self.navigationItem.rightBarButtonItem = addButton
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    func insertNewObject(sender: AnyObject) {
-        objects.insertObject(NSDate.date(), atIndex: 0)
-        let indexPath = NSIndexPath(forRow: 0, inSection: 0)
-        self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
-    }
-
-    // MARK: - Segues
-
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showDetail" {
-            if let indexPath = self.tableView.indexPathForSelectedRow() {
-                let object = objects[indexPath.row] as NSDate
-            (segue.destinationViewController as DetailViewController).detailItem = object
-            }
-        }
+       
+       self.navigationController?.navigationBar.translucent = false
+        
+       self.title = "Colors"
+       self.tableView!.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        
     }
 
     // MARK: - Table View
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
-
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return objects.count
+        
+        return colors.count
+        
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
 
-        let object = objects[indexPath.row] as NSDate
-        cell.textLabel?.text = object.description
+        var colorName: String = [String](colors.keys)[indexPath.row] as String
+        var color: UIColor = colors[colorName]!
+        cell.textLabel?.text = colorName
+        cell.backgroundColor = color
+        
         return cell
     }
 
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        
+        var colorName: String = [String](colors.keys)[indexPath.row] as String
+        var color: UIColor = colors[colorName]!
+        var themeVC : ThemeViewController = ThemeViewController(color: color)
+        self.navigationController?.pushViewController(themeVC, animated: false)
     }
-
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            objects.removeObjectAtIndex(indexPath.row)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-        }
-    }
-
 
 }
 

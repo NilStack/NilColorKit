@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8BF0A2619E4E5BD00BEC595 /* NilThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF0A2519E4E5BD00BEC595 /* NilThemeKit.swift */; };
+		B8BF0A2819E4E5FA00BEC595 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF0A2719E4E5FA00BEC595 /* ThemeViewController.swift */; };
 		B8D2CE7119DD7DB0001CE448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2CE7019DD7DB0001CE448 /* AppDelegate.swift */; };
 		B8D2CE7319DD7DB0001CE448 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2CE7219DD7DB0001CE448 /* MasterViewController.swift */; };
-		B8D2CE7519DD7DB0001CE448 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2CE7419DD7DB0001CE448 /* DetailViewController.swift */; };
-		B8D2CE7819DD7DB0001CE448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D2CE7619DD7DB0001CE448 /* Main.storyboard */; };
 		B8D2CE7A19DD7DB0001CE448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D2CE7919DD7DB0001CE448 /* Images.xcassets */; };
 		B8D2CE7D19DD7DB0001CE448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8D2CE7B19DD7DB0001CE448 /* LaunchScreen.xib */; };
 		B8D2CE8919DD7DB0001CE448 /* NilColorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2CE8819DD7DB0001CE448 /* NilColorKitTests.swift */; };
+		B8D2CE9319DD7DD1001CE448 /* NilColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2CE9219DD7DD1001CE448 /* NilColorKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8BF0A2519E4E5BD00BEC595 /* NilThemeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NilThemeKit.swift; sourceTree = "<group>"; };
+		B8BF0A2719E4E5FA00BEC595 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		B8D2CE6B19DD7DB0001CE448 /* NilColorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NilColorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D2CE6F19DD7DB0001CE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8D2CE7019DD7DB0001CE448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8D2CE7219DD7DB0001CE448 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		B8D2CE7419DD7DB0001CE448 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		B8D2CE7719DD7DB0001CE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8D2CE7919DD7DB0001CE448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8D2CE7C19DD7DB0001CE448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B8D2CE8219DD7DB0001CE448 /* NilColorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NilColorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D2CE8719DD7DB0001CE448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8D2CE8819DD7DB0001CE448 /* NilColorKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilColorKitTests.swift; sourceTree = "<group>"; };
+		B8D2CE9219DD7DD1001CE448 /* NilColorKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NilColorKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +83,9 @@
 			children = (
 				B8D2CE7019DD7DB0001CE448 /* AppDelegate.swift */,
 				B8D2CE7219DD7DB0001CE448 /* MasterViewController.swift */,
-				B8D2CE7419DD7DB0001CE448 /* DetailViewController.swift */,
-				B8D2CE7619DD7DB0001CE448 /* Main.storyboard */,
+				B8BF0A2719E4E5FA00BEC595 /* ThemeViewController.swift */,
+				B8D2CE9219DD7DD1001CE448 /* NilColorKit.swift */,
+				B8BF0A2519E4E5BD00BEC595 /* NilThemeKit.swift */,
 				B8D2CE7919DD7DB0001CE448 /* Images.xcassets */,
 				B8D2CE7B19DD7DB0001CE448 /* LaunchScreen.xib */,
 				B8D2CE6E19DD7DB0001CE448 /* Supporting Files */,
@@ -195,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D2CE7819DD7DB0001CE448 /* Main.storyboard in Resources */,
 				B8D2CE7D19DD7DB0001CE448 /* LaunchScreen.xib in Resources */,
 				B8D2CE7A19DD7DB0001CE448 /* Images.xcassets in Resources */,
 			);
@@ -215,8 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D2CE7519DD7DB0001CE448 /* DetailViewController.swift in Sources */,
 				B8D2CE7319DD7DB0001CE448 /* MasterViewController.swift in Sources */,
+				B8BF0A2819E4E5FA00BEC595 /* ThemeViewController.swift in Sources */,
+				B8D2CE9319DD7DD1001CE448 /* NilColorKit.swift in Sources */,
+				B8BF0A2619E4E5BD00BEC595 /* NilThemeKit.swift in Sources */,
 				B8D2CE7119DD7DB0001CE448 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B8D2CE7619DD7DB0001CE448 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8D2CE7719DD7DB0001CE448 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8D2CE7B19DD7DB0001CE448 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +405,7 @@
 				B8D2CE8E19DD7DB0001CE448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8D2CE8F19DD7DB0001CE448 /* Build configuration list for PBXNativeTarget "NilColorKitTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +414,7 @@
 				B8D2CE9119DD7DB0001CE448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
