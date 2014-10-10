@@ -10,6 +10,17 @@ Copy NilColorKit.swift to your project and use as the predefined colors in UICol
 
     cell.backgroundColor = UIColor.materialRed()
 
+        
+The color palette is here. 
+
+##### Google Material Colors
+
+![demo](ColorPalette/MaterialColorPalette.png)
+
+##### FlatUI Colors
+
+![demo](ColorPalette/FlatUIColors.png)
+
 The API list and color palette are here.
 
               UIColor.materialRed()        
@@ -322,18 +333,6 @@ The API list and color palette are here.
               UIColor.flatSunflowerColor()
               UIColor.flatTangerineColor()
             
-        
-    
-
-The color palette is here. 
-
-##### Google Material Colors
-
-![demo](ColorPalette/MaterialColorPalette.png)
-
-##### FlatUI Colors
-
-![demo](ColorPalette/FlatUIColors.png)
 
 
 ###### *Note:*
