@@ -48,13 +48,6 @@ class UIGViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
-        /*
-        var colorName: String = [String](colors.keys)[indexPath.row] as String
-        var color: UIColor = colors[colorName]!
-        cell.textLabel?.text = colorName
-        cell.backgroundColor = color
-        */
-        
         
         let gradientName: String = [String](gradients.keys)[indexPath.row] as String
         
@@ -66,7 +59,6 @@ class UIGViewController: UITableViewController {
         gradient.frame = cell.contentView.bounds
         gradient.startPoint = CGPointMake(0.0, 0.5)
         gradient.endPoint = CGPointMake(1.0, 0.5)
-        //gradient.locations = [0.0, 1.0]
         gradient.colors = [startColor.CGColor!, endColor.CGColor!]
         
         cell.contentView.layer.insertSublayer(gradient, atIndex: 0);

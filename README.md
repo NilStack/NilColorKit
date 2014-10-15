@@ -8,8 +8,21 @@ Usage
 
 Copy NilColorKit.swift to your project and use as the predefined colors in UIColor.
 
+Material color or FlatUI color
+    
     cell.backgroundColor = UIColor.materialRed()
 
+Gradients    
+    
+    let startColor: UIColor =  UIColor.uig_emeraldWaterStartColor()
+    
+    let endColor: UIColor = UIColor.uig_emeraldWaterEndColor()
+    
+    let gradient: CAGradientLayer = CAGradientLayer()
+    gradient.frame = cell.contentView.bounds
+    gradient.startPoint = CGPointMake(0.0, 0.5)
+    gradient.endPoint = CGPointMake(1.0, 0.5)
+    gradient.colors = [startColor.CGColor!,   endColor.CGColor!]
         
 The color palette is here. 
 
@@ -20,6 +33,10 @@ The color palette is here.
 ##### FlatUI Colors
 
 ![demo](ColorPalette/FlatUIColors.png)
+
+##### Gradients Colors Demo
+
+![demo](ColorPalette/Gradients.png)
 
 The API list and color palette are here.
 
