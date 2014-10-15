@@ -20,8 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.backgroundColor = UIColor.whiteColor()
         
         let masterVC: MasterViewController = MasterViewController()
-        let navigationVC: UINavigationController = UINavigationController(rootViewController: masterVC)
-        window!.rootViewController = navigationVC
+        let navigationVC1: UINavigationController = UINavigationController(rootViewController: masterVC)
+        navigationVC1.tabBarItem.title = "Colors"
+        
+        let uigVC: UIGViewController = UIGViewController()
+        let navigationVC2: UINavigationController = UINavigationController(rootViewController: uigVC)
+        navigationVC2.tabBarItem.title = "Gradients"
+
+        var tabVC = UITabBarController()
+        tabVC.viewControllers = [navigationVC1, navigationVC2]
+        
+        window!.rootViewController = tabVC
 
         window!.makeKeyAndVisible()
         return true

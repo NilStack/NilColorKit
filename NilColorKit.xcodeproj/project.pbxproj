@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8BCC68719EE46FF00C5A94F /* UIGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BCC68619EE46FF00C5A94F /* UIGViewController.swift */; };
 		B8BF0A2619E4E5BD00BEC595 /* NilThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF0A2519E4E5BD00BEC595 /* NilThemeKit.swift */; };
 		B8BF0A2819E4E5FA00BEC595 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF0A2719E4E5FA00BEC595 /* ThemeViewController.swift */; };
 		B8D2CE7119DD7DB0001CE448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2CE7019DD7DB0001CE448 /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8BCC68619EE46FF00C5A94F /* UIGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGViewController.swift; sourceTree = "<group>"; };
 		B8BF0A2519E4E5BD00BEC595 /* NilThemeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NilThemeKit.swift; sourceTree = "<group>"; };
 		B8BF0A2719E4E5FA00BEC595 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		B8D2CE6B19DD7DB0001CE448 /* NilColorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NilColorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				B8D2CE7019DD7DB0001CE448 /* AppDelegate.swift */,
 				B8D2CE7219DD7DB0001CE448 /* MasterViewController.swift */,
 				B8BF0A2719E4E5FA00BEC595 /* ThemeViewController.swift */,
+				B8BCC68619EE46FF00C5A94F /* UIGViewController.swift */,
 				B8D2CE9219DD7DD1001CE448 /* NilColorKit.swift */,
 				B8BF0A2519E4E5BD00BEC595 /* NilThemeKit.swift */,
 				B8D2CE7919DD7DB0001CE448 /* Images.xcassets */,
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BCC68719EE46FF00C5A94F /* UIGViewController.swift in Sources */,
 				B8D2CE7319DD7DB0001CE448 /* MasterViewController.swift in Sources */,
 				B8BF0A2819E4E5FA00BEC595 /* ThemeViewController.swift in Sources */,
 				B8D2CE9319DD7DD1001CE448 /* NilColorKit.swift in Sources */,
