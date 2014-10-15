@@ -352,6 +352,408 @@ The API list and color palette are here.
             
 
 
+Gradients API 
+
+    	 //MARK:  Emerald Water
+
+	UIColor.uig_emeraldWaterStartColor()
+	UIColor.uig_emeraldWaterEndColor()
+
+	//MARK:  Lemon Twist
+
+	UIColor.uig_lemonTwistStartColor()
+	UIColor.uig_lemonTwistEndColor()
+
+	//MARK:  Horizon
+
+	UIColor.uig_horizonStartColor()
+	UIColor.uig_horizonEndColor()
+
+	//MARK:  Rose Water
+
+	UIColor.uig_roseWaterStartColor()
+	UIColor.uig_roseWaterEndColor()
+
+	//MARK:  Frozen
+
+	UIColor.uig_frozenStartColor()
+	UIColor.uig_frozenEndColor()
+
+	//MARK:  Mango Pulp
+
+	UIColor.uig_mangoPulpStartColor()
+	UIColor.uig_mangoPulpEndColor()
+
+	//MARK:  Bloody Mary
+
+	UIColor.uig_bloodyMaryStartColor()
+	UIColor.uig_bloodyMaryEndColor()
+
+	//MARK:  Aubergine
+
+	UIColor.uig_aubergineStartColor()
+	UIColor.uig_aubergineEndColor()
+
+	//MARK:  Aqua Marine
+
+	UIColor.uig_aquaMarineStartColor()
+	UIColor.uig_aquaMarineEndColor()
+
+	//MARK:  Sunrise
+
+	UIColor.uig_sunriseStartColor()
+	UIColor.uig_sunriseEndColor()
+
+	//MARK:  Purple Paradise
+
+	UIColor.uig_purpleParadiseStartColor()
+	UIColor.uig_purpleParadiseEndColor()
+
+	//MARK:  Sea Weed
+
+	UIColor.uig_seaWeedStartColor()
+	UIColor.uig_seaWeedEndColor()
+
+	//MARK:  Pinky
+
+	UIColor.uig_pinkyStartColor()
+	UIColor.uig_pinkyEndColor()
+
+	//MARK:  Cherry
+
+	UIColor.uig_cherryStartColor()
+	UIColor.uig_cherryEndColor()
+
+	//MARK:  Mojito
+
+	UIColor.uig_mojitoStartColor()
+	UIColor.uig_mojitoEndColor()
+
+	//MARK:  Juicy Orange
+
+	UIColor.uig_juicyOrangeStartColor()
+	UIColor.uig_juicyOrangeEndColor()
+
+	//MARK:  Mirage
+
+	UIColor.uig_mirageStartColor()
+	UIColor.uig_mirageEndColor()
+
+	//MARK:  Steel Gray
+
+	UIColor.uig_steelGrayStartColor()
+	UIColor.uig_steelGrayEndColor()
+
+	//MARK:  Kashmir
+
+	UIColor.uig_kashmirStartColor()
+	UIColor.uig_kashmirEndColor()
+
+	//MARK:  Electric Violet
+
+	UIColor.uig_electricVioletStartColor()
+	UIColor.uig_electricVioletEndColor()
+
+	//MARK:  Venice Blue
+
+	UIColor.uig_veniceBlueStartColor()
+	UIColor.uig_veniceBlueEndColor()
+
+	//MARK:  Bora Bora
+
+	UIColor.uig_boraBoraStartColor()
+	UIColor.uig_boraBoraEndColor()
+
+	//MARK:  Moss
+
+	UIColor.uig_mossStartColor()
+	UIColor.uig_mossEndColor()
+
+	//MARK:  Shroom Haze
+
+	UIColor.uig_shroomHazeStartColor()
+	UIColor.uig_shroomHazeEndColor()
+
+	//MARK:  Mystic
+
+	UIColor.uig_mysticStartColor()
+	UIColor.uig_mysticEndColor()
+
+	//MARK:  Midnight City
+
+	UIColor.uig_midnightCityStartColor()
+	UIColor.uig_midnightCityEndColor()
+
+	//MARK:  Sea Blizz
+
+	UIColor.uig_seaBlizzStartColor()
+	UIColor.uig_seaBlizzEndColor()
+
+	//MARK:  Opa
+
+	UIColor.uig_opaStartColor()
+	UIColor.uig_opaEndColor()
+
+	//MARK:  Titanium
+
+	UIColor.uig_titaniumStartColor()
+	UIColor.uig_titaniumEndColor()
+
+	//MARK:  Mantle
+
+	UIColor.uig_mantleStartColor()
+	UIColor.uig_mantleEndColor()
+
+	//MARK:  Dracula
+
+	UIColor.uig_draculaStartColor()
+	UIColor.uig_draculaEndColor()
+
+	//MARK:  Peach
+
+	UIColor.uig_peachStartColor()
+	UIColor.uig_peachEndColor()
+
+	//MARK:  Moonrise
+
+	UIColor.uig_moonriseStartColor()
+	UIColor.uig_moonriseEndColor()
+
+	//MARK:  Clouds
+
+	UIColor.uig_cloudsStartColor()
+	UIColor.uig_cloudsEndColor()
+
+	//MARK:  Stellar
+
+	UIColor.uig_stellarStartColor()
+	UIColor.uig_stellarEndColor()
+
+	//MARK:  Bourbon
+
+	UIColor.uig_bourbonStartColor()
+	UIColor.uig_bourbonEndColor()
+
+	//MARK:  Calm Darya
+
+	UIColor.uig_calmDaryaStartColor()
+	UIColor.uig_calmDaryaEndColor()
+
+	//MARK:  Influenza
+
+	UIColor.uig_influenzaStartColor()
+	UIColor.uig_influenzaEndColor()
+
+	//MARK:  Shrimpy
+
+	UIColor.uig_shrimpyStartColor()
+	UIColor.uig_shrimpyEndColor()
+
+	//MARK:  Army
+
+	UIColor.uig_armyStartColor()
+	UIColor.uig_armyEndColor()
+
+	//MARK:  Miaka
+
+	UIColor.uig_miakaStartColor()
+	UIColor.uig_miakaEndColor()
+
+	//MARK:  Pinot Noir
+
+	UIColor.uig_pinotNoirStartColor()
+	UIColor.uig_pinotNoirEndColor()
+
+	//MARK:  Day Tripper
+
+	UIColor.uig_dayTripperStartColor()
+	UIColor.uig_dayTripperEndColor()
+
+	//MARK:  Namn
+
+	UIColor.uig_namnStartColor()
+	UIColor.uig_namnEndColor()
+
+	//MARK:  Blurry Beach
+
+	UIColor.uig_blurryBeachStartColor()
+	UIColor.uig_blurryBeachEndColor()
+
+	//MARK:  Vasily
+
+	UIColor.uig_vasilyStartColor()
+	UIColor.uig_vasilyEndColor()
+
+	//MARK:  A Lost Memory
+
+	UIColor.uig_aLostMemoryStartColor()
+	UIColor.uig_aLostMemoryEndColor()
+
+	//MARK:  Petrichor
+
+	UIColor.uig_petrichorStartColor()
+	UIColor.uig_petrichorEndColor()
+
+	//MARK:  Jonquil
+
+	UIColor.uig_jonquilStartColor()
+	UIColor.uig_jonquilEndColor()
+
+	//MARK:  Sirius Tamed
+
+	UIColor.uig_siriusTamedStartColor()
+	UIColor.uig_siriusTamedEndColor()
+
+	//MARK:  Kyoto
+
+	UIColor.uig_kyotoStartColor()
+	UIColor.uig_kyotoEndColor()
+
+	//MARK:  Misty Meadow
+
+	UIColor.uig_mistyMeadowStartColor()
+	UIColor.uig_mistyMeadowEndColor()
+
+	//MARK:  Aqualicious
+
+	UIColor.uig_aqualiciousStartColor()
+	UIColor.uig_aqualiciousEndColor()
+
+	//MARK:  Moor
+
+	UIColor.uig_moorStartColor()
+	UIColor.uig_moorEndColor()
+
+	//MARK:  Almost
+
+	UIColor.uig_almostStartColor()
+	UIColor.uig_almostEndColor()
+
+	//MARK:  Forever Lost
+
+	UIColor.uig_foreverLostStartColor()
+	UIColor.uig_foreverLostEndColor()
+
+	//MARK:  Winter
+
+	UIColor.uig_winterStartColor()
+	UIColor.uig_winterEndColor()
+
+	//MARK:  Autumn
+
+	UIColor.uig_autumnStartColor()
+	UIColor.uig_autumnEndColor()
+
+	//MARK:  Candy
+
+	UIColor.uig_candyStartColor()
+	UIColor.uig_candyEndColor()
+
+	//MARK:  Reef
+
+	UIColor.uig_reefStartColor()
+	UIColor.uig_reefEndColor()
+
+	//MARK:  The Strain
+
+	UIColor.uig_theStrainStartColor()
+	UIColor.uig_theStrainEndColor()
+
+	//MARK:  Dirty Fog
+
+	UIColor.uig_dirtyFogStartColor()
+	UIColor.uig_dirtyFogEndColor()
+
+	//MARK:  Earthly
+
+	UIColor.uig_earthlyStartColor()
+	UIColor.uig_earthlyEndColor()
+
+	//MARK:  Virgin
+
+	UIColor.uig_virginStartColor()
+	UIColor.uig_virginEndColor()
+
+	//MARK:  Ash
+
+	UIColor.uig_ashStartColor()
+	UIColor.uig_ashEndColor()
+
+	//MARK:  Shadow Night
+
+	UIColor.uig_shadowNightStartColor()
+	UIColor.uig_shadowNightEndColor()
+
+	//MARK:  Cherryblossoms
+
+	UIColor.uig_cherryblossomsStartColor()
+	UIColor.uig_cherryblossomsEndColor()
+
+	//MARK:  Parklife
+
+	UIColor.uig_parklifeStartColor()
+	UIColor.uig_parklifeEndColor()
+
+	//MARK:  Dance To Forget
+
+	UIColor.uig_danceToForgetStartColor()
+	UIColor.uig_danceToForgetEndColor()
+
+	//MARK:  Starfall
+
+	UIColor.uig_starfallStartColor()
+	UIColor.uig_starfallEndColor()
+
+	//MARK:  Red Mist
+
+	UIColor.uig_redMistStartColor()
+	UIColor.uig_redMistEndColor()
+
+	//MARK:  Teal Love
+
+	UIColor.uig_tealLoveStartColor()
+	UIColor.uig_tealLoveEndColor()
+
+	//MARK:  Neon Life
+
+	UIColor.uig_neonLifeStartColor()
+	UIColor.uig_neonLifeEndColor()
+
+	//MARK:  Man of Steel
+
+	UIColor.uig_manofSteelStartColor()
+	UIColor.uig_manofSteelEndColor()
+
+	//MARK:  Amethyst
+
+	UIColor.uig_amethystStartColor()
+	UIColor.uig_amethystEndColor()
+
+	//MARK:  Cheer Up Emo Kid
+
+	UIColor.uig_cheerUpEmoKidStartColor()
+	UIColor.uig_cheerUpEmoKidEndColor()
+
+	//MARK:  Shore
+
+	UIColor.uig_shoreStartColor()
+	UIColor.uig_shoreEndColor()
+
+	//MARK:  Facebook Messenger
+
+	UIColor.uig_facebookMessengerStartColor()
+	UIColor.uig_facebookMessengerEndColor()
+
+	//MARK:  SoundCloud
+
+	UIColor.uig_soundCloudStartColor()
+	UIColor.uig_soundCloudEndColor()
+
+	//MARK:  Behongo
+
+	UIColor.uig_behongoStartColor()
+	UIColor.uig_behongoEndColor()
+    
 ###### *Note:*
 NilThemeKit in sample code is another open sourced framework to help developer create color themes.
 You can get it from [here](https://github.com/NilStack/NilThemeKit).
